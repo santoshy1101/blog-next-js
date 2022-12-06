@@ -1,10 +1,10 @@
 import React from 'react';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 
 const slug = () => {
-    const router = useRouter();
-    const {slug} =router.query;
+    // const router = useRouter();
+    // const {slug} =router.query;
 
   return (
     <div className='px-24'>
